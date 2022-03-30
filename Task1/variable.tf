@@ -12,7 +12,7 @@ variable "ec2_instance_type" {
 
 variable "ingress_rules" {
   type    = list(number)
-  default = [80, 22, 8080]
+  default = [80, 22, 8080, 3306]
 }
 
 variable "ami_image_owner" {
