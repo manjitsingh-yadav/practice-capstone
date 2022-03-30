@@ -1,7 +1,10 @@
-# 1. Set AWS access key id and secret access key 
+# 1. Set AWS access key id and secret access key
 
 export AWS_ACCESS_KEY_ID=""
 export AWS_SECRET_ACCESS_KEY=""
+
+Then run,
+terraform apply
 
 # 2. Run following commands on master node after first login
 
